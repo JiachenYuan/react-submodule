@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HwContainer from './Components/Hw/Hw';
+// import UploadButton from './Components/UploadButton/UploadButton';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+    <HwContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
